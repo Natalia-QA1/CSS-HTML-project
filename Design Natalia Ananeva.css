@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+
+#large-title{
+	font-family: Calisto MT;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	color: lightskyblue;
+	width: 100%;
+	border: 3px ridge lightblue;
+	border-radius: 3px;
+	padding: 10px 5px;
+	background-color: #466995;
+    position: fixed;
+    z-index: 10;
+	margin: 0 auto;
+	}
+	
+
+	
+[href]{
+	color: blue;
+}
+
+a:hover {
+  color: darkorange;
+}
+
+.me {
+	color: #466995;
+    font-family: Gill Sans Extrabold, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: aliceblue;
+	font-size: 40px;
+}
+
+
+.foto1 {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 3px none lightblue;
+  border-radius: 3px;
+  padding: 10px 5px;
+}
+
+.listofme {
+	background-color: aliceblue;
+	list-style-type: none;
+	column-width: 10 px;
+}
+
+h2 {
+	color: #466995;
+    font-family: 'Oswald', sans-serif;
+	text-indent: 40px;
+}
+
+
+.Stroka {
+	column-count: 4;
+	column-gap: 5px;
+	column-width: 10 px;
+	border: 3px double blue;
+	padding: 10px 5px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.introdaction {
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	column-count: 3;
+	column-rule: 2px solid aliceblue;
+	text-align: center;
+	
+}
+	
+.fotoline {
+	column-count: 3;
+}
